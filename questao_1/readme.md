@@ -1,0 +1,73 @@
+# Dados Levantados:
+
+- Academia
+    - Aluno
+        - Matricula
+        - Data da Matricula
+        - Nome
+        - Endereço
+        - Telefone
+        - Data de Nascimento
+        - Altura
+        - Peso
+        - Colunas (Student)
+            - id
+            - enrollment
+            - enrollment_date
+            - name
+            - address
+            - phone
+            - birthdate
+            - height
+            - weight
+
+    - Turmas do Aluno
+        - Aluno
+        - Turma
+        - Colunas (StudentClass)
+            - id
+            - student_id
+            - class_id
+
+    - Instrutor
+        - RG
+        - Nome
+        - Data de nascimento
+        - Titulação
+        - Colunas (Trainer)
+            - id
+            - rg
+            - name
+            - birthdate
+            - title
+
+    - Telefones do Instrutor
+        - telefone
+        - Colunas (TrainerPhomes)
+            - id
+            - trainer_id
+            - phone
+    - Turmas
+        - Quantidade Máxima de Alunos
+        - Horário da Aula
+        - Duração da Aula
+        - Data Inicial
+        - Data Final
+        - Tipo de Atividade
+        - Instrutor
+        - Monitor
+        - Colunas (Class):
+            - ID
+            - max_student_amount
+            - class_schedule
+            - class_duration
+            - start_time
+            - end_time
+            - workout_id
+            - trainer_id
+            - tutoring_id
+    - Atividade
+        - Nome da Ativdade
+        - Colunas (Workout)
+            - id
+            - type
