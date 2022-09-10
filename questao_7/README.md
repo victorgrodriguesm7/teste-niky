@@ -2,6 +2,8 @@
 
 Esta api foi criada para Mockar os dados do endpoint `/categorias`.
 
+Você pode ter acesso a API na Url: [https://niky-7.herokuapp.com](https://niky-7.herokuapp.com)
+
 # Tecnologias
 
 Esse projeto utiliza as seguintes tecnologias:
