@@ -1,13 +1,16 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { SearchBar, SideBar } from "./components"
 
 function App() {
 
   return (
-    <Container>
-      <Row>
-        Olá mundo
-      </Row>
-    </Container>
+    <div>
+      <div>
+        <SideBar/>
+        <div>
+          <SearchBar/>
+        </div>
+      </div>
+    </div>
   )
 }
 
