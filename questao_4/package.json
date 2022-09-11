@@ -1,0 +1,19 @@
+{
+  "name": "questao_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sequelize": "^6.21.6",
+    "sqlite3": "^5.0.11"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
