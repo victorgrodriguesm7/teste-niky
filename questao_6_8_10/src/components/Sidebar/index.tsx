@@ -1,8 +1,10 @@
+import './style.css';
+
 const SideBar = () => {
     return (
-        <div>
+        <nav className="nav-bar">
           Menu Lateral
-        </div>
+        </nav>
     )
 }
 

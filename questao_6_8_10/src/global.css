@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, #root {
+    flex: 1;
+    display: flex;
+
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+
+    overflow: hidden;
+}

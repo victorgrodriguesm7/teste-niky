@@ -1,0 +1,34 @@
+.category-tab-container {
+    height: min-content;
+}
+
+.category-tab-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 1.5rem;
+}
+
+.category-tab-container-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4a4a8a;
+}
+
+.category-tab-container-header select {
+    height: 3rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: #06064b;
+    padding: 0 2rem 0 .5rem;
+
+    background: #dddadad0;
+
+    outline: 0;
+    border: 1.5px solid #a1a1a1;
+    border-radius: 8px;
+
+    cursor: pointer;
+}

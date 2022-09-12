@@ -1,0 +1,32 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 32px 40px;
+    background: #C4C4c4;
+
+    column-gap: 30px;
+    height: 100%;
+}
+
+.main-content > section:first-child {
+    height: min-content;
+    align-self: flex-start;
+    width: 58%;
+}
+
+.main-content > section {
+    background: #F4F4F4;
+    height: 100%;
+    width: 41.6%;
+    
+    padding: 16px;
+    border-radius: 16px;
+}
