@@ -45,6 +45,10 @@ E o servidor estará rodando na porta 3000.
 
 Para testar o mesmo basta abrir no seu navegador a url: `localhost:3000/categorias`
 
+Caso deseje gerar as Categorias de maneira aleatória, você pode usar a url:
+
+Para testar o mesmo basta abrir no seu navegador a url: `localhost:3000/categorias-aleatorio`
+
 Você pode especificar a quantidade de categorias geradas passando um QueryParam amount:
 
-`localhost:3000/categorias?amount=1`
+`localhost:3000/categorias-aleatorio?amount=1`
